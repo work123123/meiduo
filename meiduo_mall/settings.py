@@ -77,9 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'meiduo',
-        'IP': '192.168.0.37',
+        'HOST': '192.168.0.37',
         'PORT': 3306,
         'PASSWORD': '123456',
+        'USER': 'root',
     }
 }
 
